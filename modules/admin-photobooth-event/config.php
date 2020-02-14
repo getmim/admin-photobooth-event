@@ -45,7 +45,12 @@ return [
                         'params' => [],
                         'query' => ['type' => 'event']
                     ],
-                    'rules' => []
+                    'rules' => [
+                        'exists' => [
+                            'model' => 'Event\\Model\\Event',
+                            'field' => 'id'
+                        ]
+                    ]
                 ]
             ],
             'admin.photobooth.edit' => [
