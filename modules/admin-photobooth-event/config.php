@@ -2,7 +2,7 @@
 
 return [
     '__name' => 'admin-photobooth-event',
-    '__version' => '0.0.1',
+    '__version' => '0.0.2',
     '__git' => 'git@github.com:getmim/admin-photobooth-event.git',
     '__license' => 'MIT',
     '__author' => [
@@ -26,6 +26,9 @@ return [
             ],
             [
                 'lib-formatter' => NULL
+            ],
+            [
+                'photobooth-event' => NULL
             ]
         ],
         'optional' => []
